@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 const sitemap = (): MetadataRoute.Sitemap => {
   return [
     {
-      url: "https://new-portfolio-ruby-two.vercel.app/",
+      url: "https://mmesomacodes.vercel.app/",
       lastModified: new Date(),
     },
   ];

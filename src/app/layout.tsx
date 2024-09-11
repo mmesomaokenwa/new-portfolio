@@ -7,12 +7,16 @@ export const metadata: Metadata = {
   title: "Mmesoma Okenwa",
   description: "Mmesoma Okenwa's Portfolio",
   openGraph: {
-    url: "https://new-portfolio-ruby-two.vercel.app/",
+    url: "https://mmesomacodes.vercel.app/",
     siteName: "Mmesoma Okenwa",
     type: "website",
     title: "Mmesoma Okenwa",
     description: "Mmesoma Okenwa's Portfolio",
-    images: ["/opengraph.png"],
+    images: [
+      {
+        url: "https://mfgadjucjxcfjhuaebjq.supabase.co/storage/v1/object/public/products/public/opengraph.png?t=2024-09-11T14%3A46%3A45.782Z",
+      },
+    ],
   },
 };
 
