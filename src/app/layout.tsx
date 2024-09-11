@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 import ThemeProvider from "@/providers/ThemeProvider";
 
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
 };
 
-const inter = Inter({
+const quicksand = Quicksand({
   subsets: ["latin"],
 });
 
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} antialiased`}
+        className={`${quicksand.className} antialiased`}
       >
         <ThemeProvider
           attribute="class"
