@@ -196,12 +196,14 @@ export const workExperience = [
     id: 1,
     title: "Frontend Engineer Intern",
     desc: "Assisted in the development of a web-based platform using Next.js and React.js, enhancing interactivity.",
+    className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   // {
@@ -214,6 +216,7 @@ export const workExperience = [
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   // {
