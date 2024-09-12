@@ -231,13 +231,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/mmesomaokenwa",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/dollarsavage1",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/mmesoma-okenwa",
   },
 ];
