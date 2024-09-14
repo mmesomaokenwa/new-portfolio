@@ -29,7 +29,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
             src={item.img}
             alt="cover"
             fill
-            className="z-10 absolute bottom-0"
+            className="z-10 absolute bottom-0 rounded-3xl"
           />
         </div>
 
