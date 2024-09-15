@@ -103,7 +103,7 @@ export const projects = [
     id: 3,
     title: "Imaginify - AI Image SaaS",
     des: "A REAL Software-as-a-Service app with AI features for image generation and editing and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/projects/imaginify.png",
     iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://imaginify-ai-prod.vercel.app",
   },
